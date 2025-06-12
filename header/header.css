@@ -1,8 +1,106 @@
 .presentacion{
     color: white;
+    
+  
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .header{
     color: #A7A7A7;
     justify-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 8%;
+ 
+
     
 }
+.img{
+    gap: 1rem;
+    margin-top: 1%;
+
+}
+
+.sech{
+    border-radius: 100%;
+    width: 290px;
+    height: 290px;
+}
+.presentacion{
+    justify-items: center;
+    display: flex;
+      justify-content: end;
+      margin-top: 4rem;
+      padding: 2rem;
+    
+     
+     
+}
+.letras{
+     margin-right: 20rem;
+      font-size: 52px;
+}
+
+.nombre {
+  background: linear-gradient(to right, #338bff, #ee33ff); /* Degradado de izquierda a derecha */
+  -webkit-background-clip: text; /* Compatibilidad con navegadores WebKit (Chrome, Safari) */
+  background-clip: text; /* Recorta el fondo al área del texto */
+  color: transparent; /* Hace el texto transparente para mostrar el degradado */
+  -webkit-text-fill-color: transparent; /* Alternativa para algunos navegadores */
+  font-size: 52px;
+}
+
+.espacio{
+     background: linear-gradient(to right, #338bff, #ee33ff); 
+    border-radius: 100%;
+    width: 300px ;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+    
+}
+.letras{
+    font-size: 1rem;
+}
+.stack{
+    justify-content: center;
+    display: grid;
+    margin-top: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CCCCCC;
+    align-items: center;
+    
+}
+.pila{
+    color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12rem;
+    font-size: 42px;
+    
+}
+.git{
+    text-decoration: none;
+}
+.tecnologia{
+    font-size: 32px;
+}
+.hi{
+    font-size: 52px;
+}
+.name{
+    font-size: 52px;
+}
+.web{
+    font-size: 52px;
+}
+p{
+    font-size: 20px;
+}
+
+
+
