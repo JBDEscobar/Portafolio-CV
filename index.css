@@ -1,36 +1,125 @@
-
-header{
+header {
     display: flex;
     justify-content: end;
-    padding: 4rem ;
-     gap: 2rem;
+    padding: 4rem;
+    gap: 3rem;
 }
 
 header a {
-    padding: 2rem;
+    padding: 1rem 1.5rem;
     color: #FFFFFF;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     border-radius: 12px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    height: auto;
-    padding: 1rem 1.5rem;
-   
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
 }
 
-header a:hover{
+header a:hover {
     background-color: #2C66C3;
     box-shadow: 5px 5px 10px 0px rgba(224, 201, 201, 0.5);
+    transform: translateY(-2px);
 }
-/* Para teléfonos */
+
+
 @media (max-width: 768px) {
     header {
-        padding: 2rem 1rem;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); /* esto es para que se acomoden las cuatro opciones pero que se coloquen una debajo de otra  */
+        gap: 1rem;
         justify-content: center;
+        padding: 2rem 1rem;
     }
-        header a {
-        padding: 0.8rem 1rem; /* Esto es un pading con dos valores el primero es de arriba y abajjo el segundo de los lados  */
+
+    header a {
         font-size: 18px;
+        text-align: center;
     }
-   }
+}
+.letras{
+    display: grid;
+}
+
+.seccion{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+h1{
+     background: linear-gradient(to right, #2C66C3, #00FFD1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 90px;
+   font-weight: 400;
+    padding-left: 8rem;
+    padding-top: 1rem;
+  
+    
+}
+h3{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+     font-size: 45px;
+      padding-left: 12rem;
+       font-weight: 300;
+}
+h2{
+    color: #2CB67D;
+    font-family: "Roboto", sans-serif;
+    font-size: 55px;
+     font-weight: 300;
+     padding-top: 1rem;
+    
+}
+.hombre{
+    width: 40rem;
+    height:38rem ;
+}
+/* Responsive  */
+
+@media (max-width: 768px) {
+    .seccion {
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 55px;
+        padding-left: 0;
+    }
+
+    h3 {
+        font-size: 28px;
+        padding-left: 0;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .hombre {
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .hombre {
+        width: 100%;
+    }
+}

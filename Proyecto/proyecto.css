@@ -1,0 +1,265 @@
+header {
+    display: flex;
+    justify-content: end;
+    padding: 4rem;
+    gap: 3rem;
+}
+
+header a {
+    padding: 1rem 1.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+header a:hover {
+    background-color: #2C66C3;
+    box-shadow: 5px 5px 10px 0px rgba(224, 201, 201, 0.5);
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+    header {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); /* esto es para que se acomoden las cuatro opciones pero que se coloquen una debajo de otra  */
+        gap: 1rem;
+        justify-content: center;
+        padding: 2rem 1rem;
+    }
+
+    header a {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+/* PRoyectos--------------------------- */
+.Proyectos h1{
+     background: linear-gradient(to right, #2C66C3, #00FFD1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.Proyectos{
+    display: grid;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items: center;
+    
+}
+
+.linia{
+    width: 9rem;
+}
+
+.cuadro{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.cuadros {
+    border: 1px solid white;
+    width: 30rem;
+    height: 45rem;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.cuadros:hover {
+    box-shadow: 10px 10px 15px 5px rgba(91, 27, 143, 0.5);
+    transform: translateY(-35px);
+}
+.gato{
+    width: 29rem;
+    border-radius: 40px;
+    height: 18rem;;
+    padding: 1rem;
+}
+.papa{
+    padding-left: 3rem;
+    padding-top: 3rem;
+   
+}
+.stack h3{
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 200;
+
+}
+.stack p{
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 18px;
+
+}
+
+.Rep a{
+      background-color: #2C66C3;
+     padding: 1rem 1.5rem;
+    transform: translateY(-2px);
+    border-radius: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+     font-family: "Roboto", sans-serif; font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+   
+     
+
+}
+
+.Rep{
+    display: flex;
+     margin-top: 18px;
+}
+.cat{
+    padding-top: 5px;
+    margin-top: 5px;
+
+
+}
+.cat h3{
+     font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 200;
+    
+}
+.cat p { 
+     font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 10px;
+   
+    
+}
+.link a{
+    background-color: #2C66C3;
+     padding: 1rem 1.5rem;
+    transform: translateY(-2px);
+    border-radius: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+     font-family: "Roboto", sans-serif;
+   
+
+}
+.link{
+     margin-top: 1.8rem;
+     
+}
+/* Easter egg */
+
+.cuadro{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.cuadros1 {
+    border: 1px solid white;
+    width: 30rem;
+    height: 45rem;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.cuadros1:hover {
+    box-shadow: 10px 10px 15px 5px rgba(228, 30, 106, 0.5);
+    transform: translateY(-35px);
+}
+.cuadros2 {
+    border: 1px solid white;
+    width: 30rem;
+    height: 45rem;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.cuadros2:hover {
+    box-shadow: 10px 10px 15px 5px rgba(224, 10, 10, 0.5);
+    transform: translateY(-35px);
+}
+.cuadros3 {
+    border: 1px solid white;
+    width: 30rem;
+    height: 45rem;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.cuadros3:hover {
+    box-shadow: 10px 10px 15px 5px rgba(122, 5, 110, 0.5);
+    transform: translateY(-35px);
+}
+@media (max-width: 768px) {
+    .cuadro {
+        display: grid; 
+        grid-template-columns: 1fr; /* una sola columna */
+        gap: 2rem;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+
+    .Proyectos h1 {
+        font-size: 45px;
+    }
+
+    .stack h3,.cat h3 {
+        font-size: 30px;
+    }
+
+    .stack p,.cat p {
+        font-size: 18px;
+    }
+
+    .Rep {
+        justify-content: center;
+    }
+
+    .Rep a,.link a {
+        width: auto;
+        text-align: center;
+        padding: 0.8rem 1rem;
+    }
+
+    header a {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .Proyectos h1 {
+        font-size: 35px;
+    }
+
+    .stack h3,
+    .cat h3 {
+        font-size: 24px;
+    }
+
+    .stack p,
+    .cat p {
+        font-size: 16px;
+    }
+}
