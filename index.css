@@ -1,0 +1,36 @@
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 4rem ;
+     gap: 2rem;
+}
+
+header a {
+    padding: 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    height: auto;
+    padding: 1rem 1.5rem;
+   
+}
+
+header a:hover{
+    background-color: #2C66C3;
+    box-shadow: 5px 5px 10px 0px rgba(224, 201, 201, 0.5);
+}
+/* Para teléfonos */
+@media (max-width: 768px) {
+    header {
+        padding: 2rem 1rem;
+        justify-content: center;
+    }
+        header a {
+        padding: 0.8rem 1rem; /* Esto es un pading con dos valores el primero es de arriba y abajjo el segundo de los lados  */
+        font-size: 18px;
+    }
+   }
